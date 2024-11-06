@@ -18,9 +18,10 @@
 
         <EditText
             android:id="@+id/Password"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="212dp"
+            android:layout_height="56dp"
             android:layout_marginBottom="140dp"
+            android:autofillHints=""
             android:ems="10"
             android:hint="@string/senha"
             android:inputType="textPassword"
@@ -36,7 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="100dp"
             android:layout_marginTop="20dp"
-            android:backgroundTint="#4CAF50"
+            android:backgroundTint="#2D802F"
             android:text="@string/entrar"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Password"
@@ -54,10 +55,11 @@
 
         <EditText
             android:id="@+id/login"
-            android:layout_width="206dp"
-            android:layout_height="52dp"
+            android:layout_width="214dp"
+            android:layout_height="60dp"
             android:autofillHints=""
             android:hint="@string/login"
+            android:textColor="#000000"
             app:layout_constraintBottom_toTopOf="@+id/Password"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
