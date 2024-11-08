@@ -22,7 +22,6 @@
             android:autofillHints="Produto1"
             android:hint="Produto1"
             android:inputType="textAutoCorrect"
-            android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="@+id/editText"
             app:layout_constraintEnd_toStartOf="@+id/editText"
             app:layout_constraintHorizontal_bias="0.64"
