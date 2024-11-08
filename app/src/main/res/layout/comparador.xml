@@ -152,8 +152,10 @@
             android:backgroundTint="#307835"
             android:text="Comparar"
             android:textColor="@color/white"
-            tools:layout_editor_absoluteX="150dp"
-            tools:layout_editor_absoluteY="244dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText5"
             tools:ignore="HardcodedText,MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
