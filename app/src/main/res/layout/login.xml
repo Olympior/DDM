@@ -17,8 +17,23 @@
         app:layout_constraintVertical_bias="0.498">
 
         <EditText
+            android:id="@+id/login"
+            android:layout_width="214dp"
+            android:layout_height="60dp"
+            android:autofillHints=""
+            android:hint="@string/login"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/Password"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.683"
+            tools:ignore="TextFields" />
+
+        <EditText
             android:id="@+id/Password"
-            android:layout_width="212dp"
+            android:layout_width="214dp"
             android:layout_height="56dp"
             android:layout_marginBottom="140dp"
             android:autofillHints=""
@@ -27,7 +42,7 @@
             android:inputType="textPassword"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             tools:ignore="MissingConstraints" />
 
@@ -53,20 +68,6 @@
             app:layout_constraintStart_toEndOf="@+id/button2"
             app:layout_constraintTop_toTopOf="@+id/button2" />
 
-        <EditText
-            android:id="@+id/login"
-            android:layout_width="214dp"
-            android:layout_height="60dp"
-            android:autofillHints=""
-            android:hint="@string/login"
-            android:textColor="#000000"
-            app:layout_constraintBottom_toTopOf="@+id/Password"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.683"
-            tools:ignore="TextFields" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
