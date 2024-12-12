@@ -45,17 +45,14 @@
             app:layout_constraintStart_toStartOf="parent"
             tools:ignore="MissingConstraints" />
 
-        <Button
+        <com.example.compra.CustomButton
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="100dp"
             android:layout_marginTop="20dp"
-            android:backgroundTint="#2D802F"
-            android:text="@string/entrar"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Password"
-            tools:ignore="MissingConstraints" />
+            app:layout_constraintTop_toBottomOf="@+id/Password"/>
 
         <Button
             android:id="@+id/button3"
